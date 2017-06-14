@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="D:\sidiudiu\Pullrefreshlistview\library\src\main\assets"/><source path="D:\sidiudiu\Pullrefreshlistview\library\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\sidiudiu\Pullrefreshlistview\library\src\debug\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="D:\sidiudiu\MyApplication\shangchuan\first\library\src\main\assets"/><source path="D:\sidiudiu\MyApplication\shangchuan\first\library\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\sidiudiu\MyApplication\shangchuan\first\library\src\debug\assets"/></dataSet></merger>

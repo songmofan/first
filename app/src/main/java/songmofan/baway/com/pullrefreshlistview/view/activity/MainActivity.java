@@ -1,14 +1,13 @@
 package songmofan.baway.com.pullrefreshlistview.view.activity;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.Toast;
+import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 
 import com.handmark.pulltorefresh.library.PullToRefreshBase;
 import com.handmark.pulltorefresh.library.PullToRefreshListView;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import songmofan.baway.com.pullrefreshlistview.R;
 import songmofan.baway.com.pullrefreshlistview.presenter.PullToPresenter;
@@ -16,6 +15,7 @@ import songmofan.baway.com.pullrefreshlistview.view.adapter.PullToRefreshAdapter
 
 public class MainActivity extends AppCompatActivity implements PullToRefreshListView.OnRefreshListener2{
 
+    private static final String TAG ="MainActivity" ;
     private PullToRefreshListView pull_list;
     private ArrayList<String> list;
     private PullToRefreshAdapter ad;
@@ -26,6 +26,8 @@ public class MainActivity extends AppCompatActivity implements PullToRefreshList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initView();
+
+
         initData();
 
 
@@ -36,6 +38,12 @@ public class MainActivity extends AppCompatActivity implements PullToRefreshList
         list = (ArrayList<String>) p.getDataFromServer();
         ad.setData(list);
         ad.notifyDataSetChanged();
+        Log.i(TAG, "initData: hahhah");
+        Log.i(TAG, "initData: hahhah");
+        Log.i(TAG, "initData: hahhah");
+        Log.i(TAG, "initData: hahhah");
+
+
 
 
 
